@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: aqua;
+  text-decoration: none;
+}
+
+#wrapper {
+  display: flex;
+}
+
+#left > * {
+  width: 80%;
+}
+
+#left img {
+  width: 80%;
+  margin-top: -100px;
+}
+
+#left {
+  width: 40%;
+  text-align: center;
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#left form div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#left form div label {
+  color: #fff;
+  margin-top: 10px;
+}
+
+#left form div input {
+  border: 1px solid white;
+  background-color: #000;
+  height: 30px;
+  margin: 5px 0;
+}
+
+.primary-btn {
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+}
+
+#links a {
+  margin-bottom: 30px;
+  color: blue;
+}
+
+.hr-bar {
+  margin-bottom: 40px;
+}
+
+.secondary-btn {
+  color: #fff;
+  background-color: #333;
+  display: block;
+  width: calc(100% - 40px);
+  padding: 20px;
+}
+
+#main-footer p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#main-footer {
+  color: #fff;
+}
+
+#main-footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#right {
+  background: url("https://image.ibb.co/cO9Lxq/login-bg.jpg") no-repeat center
+    center/cover;
+  width: 60%;
+}
+
+#showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.showcase-text {
+  color: #fff;
+  font-size: 40px;
+  margin: 20px;
+}
+
+#showcase .secondary-btn {
+  width: 60%;
+  text-align: center;
+}
